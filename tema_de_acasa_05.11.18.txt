@@ -1,0 +1,10 @@
+De conspectat:
+1. Structura documentului HTML
+2. Taguri de formatare
+3. Hiperlinkuri
+4. Imagini
+5. Liste
+6. Tabele
+7. Taguri HTML 5
+
+De ales tematica pentru site si de prezentat pina vineri(09.11.08)
