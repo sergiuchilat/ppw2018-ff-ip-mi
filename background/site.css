@@ -1,0 +1,34 @@
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background: url(img/bg-page.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.rectangle{
+	border: 4px solid black;
+	background: url(img/800px_COLOURBOX18954261.jpg);
+	width: 600px;
+	height: 600px;
+}
+
+.repeat-x{
+	background-repeat: repeat-x;	
+}
+
+.repeat-y{
+	background-repeat: repeat-y;	
+}
+
+
+.no-repeat{
+	background-repeat: no-repeat;	
+}
+
+.cover{
+	background-size: cover;
+}
