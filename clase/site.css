@@ -1,0 +1,30 @@
+*{
+	border: 4px solid cyan;
+}
+
+html{
+	border: none;
+}
+body{
+	background: yellow;
+}
+div{
+	background: lime;
+	border: 2px dashed black;
+}
+
+.element{
+	border: 1px solid violet;
+	width: 250px;
+}
+
+#deosebit{
+	border: 3px dashed red; 
+	background: blue; 
+	width: 1050px; 
+	height: 25px;
+	font-size: 10px; 
+	font-family: Tahoma;
+}
+
+.class
