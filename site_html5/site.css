@@ -1,0 +1,33 @@
+header{
+	background: blue;
+	height: 100px;
+	font-size: 60px;
+	text-align: center;
+}
+
+nav{
+	background: orange;
+}
+
+aside{
+	background:violet;
+	height: 300px;
+	width: 15%;
+}
+
+section{
+	background: yellow;
+	width: 84%;
+}
+
+aside, section{
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer{
+	background: #000000;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+}
