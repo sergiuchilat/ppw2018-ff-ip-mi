@@ -25,6 +25,10 @@
 	background: #71d35b;
 }
 
+.menu li a.active{
+	background: red;
+}
+
 .menu .submenu{
 	width: 200px;
 	position: absolute;

@@ -1,3 +1,6 @@
+body{
+	font-family: Arial;
+}
 header{
 	background: blue;
 	height: 100px;
@@ -23,6 +26,74 @@ section{
 aside, section{
 	display: inline-block;
 	vertical-align: top;
+}
+
+
+.gallery{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+.gallery li{
+	margin: 10px;
+	padding: 0;
+	border: 1px solid silver;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.gallery li:hover{
+	margin: 5px;
+}
+
+.gallery li a img{
+	width: 150px; 
+}
+
+.gallery li a img:hover{
+	width: 160px;
+}
+
+#articles{
+	width: 82%;
+	padding: 1%;
+}
+
+#articles article{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed silver;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 15px;
+
+}
+
+#articles article img, 
+#articles article div{
+	display: inline-block;
+	vertical-align: top;
+} 
+
+#articles article img{
+	width: 20%;
+	margin-right: 20px;
+}
+
+#articles article div{
+	width: 70%;
+}
+
+
+.video{
+	padding: 0;
+	list-style: none;
+}
+
+.video li{
+	width: 40%;
+	display: inline-block;
 }
 
 footer{
